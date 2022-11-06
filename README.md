@@ -20,7 +20,7 @@ KULLANIMDA YAPILMASI GEREKENLER;
 •	City ve Country olarak iki adet tablo oluşturulmaktadır. Burada City tablosu ile Country tablosu ilişkilendirilmiştir. City’de bulunan country_id alanı Country’nin country_id alanı ile ilişkilidir. Kısaca tablo bilgisi verilmesi gerekirse; City tablosunda bulunanlar city_id , city, population ve country_id bulunmaktadır. Country tablosunda bulunanlar ise country_id, country ve population bulunmaktadır.  
 •	Postman ile crud işlemlerini test etmek için gerekli bilgiler aşağıda verilmiştir. 
 NOT: Öncelikli olarak Country oluşturulup sonra City oluşturulması gerekir.
-    o	Country tablosu için crud işlemlerinin adımları;
+•   Country tablosu için crud işlemlerinin adımları;
       	Bütün bir liste dönülmek isteniyor ise aşağıda yazılan url yazılması gerekir. Get ile birlikte http://localhost:8081/api/country/countries kullanılmalıdır
 ![image](https://user-images.githubusercontent.com/91989518/200198428-78a899cf-c017-4653-850d-a8436c1af1e1.png)
       
@@ -36,7 +36,7 @@ NOT: Öncelikli olarak Country oluşturulup sonra City oluşturulması gerekir.
       	Güncelleme işlemi yapılmak istenirse bütün bilgiler ile aşağıda yazılan url yazılması gerekir. Post ile birlikte http://localhost:8081/api/country/update kullanılmadır. Body bölümünde raw alanı seçilip tipide json olarak ayarlanması gerekir.   
 ![image](https://user-images.githubusercontent.com/91989518/200198489-56e5825a-137c-473f-b128-5fd36f665783.png)
       
-    o	City tablosu için crud işlemlerinin adımları;
+•   City tablosu için crud işlemlerinin adımları;
        	Bütün bir liste dönülmek isteniyor ise aşağıda yazılan url yazılması gerekir. Get ile birlikte http://localhost:8081/api/city/cities kullanılmalıdır.
 ![image](https://user-images.githubusercontent.com/91989518/200198581-8ab3cdb7-6e9a-4dbb-95e1-652f6c957c54.png)
 
